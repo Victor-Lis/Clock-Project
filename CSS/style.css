@@ -50,7 +50,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  > .twelve {
+  .twelve {
     position: absolute;
     color: #fff;
     height: 200px;
