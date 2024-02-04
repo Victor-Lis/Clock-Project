@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     outline: 0;
+    font-family: sans-serif;
 }
 
 body{
@@ -22,6 +23,7 @@ body{
     height: 150px;
     border-radius: 100%;
     background-color: #fff;
+    position: relative;
 }
 
 .ponteiro-body{
@@ -39,4 +41,39 @@ body{
     background-color: #000;
 
     margin: 0 auto;
+}
+
+.texts{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > .twelve{
+        position: absolute;
+        color: blue;
+        height: 200px;
+        width: 20px;
+        z-index: 1;
+    }
+
+    > .one{
+        position: absolute;
+        color: blue;
+        height: 200px;
+        width: 20px;
+        z-index: 1;
+        transform: rotate(30deg);
+    }
+
+    > .two{
+        position: absolute;
+        color: blue;
+        height: 200px;
+        width: 20px;
+        z-index: 1;
+        transform: rotate(60deg);
+    }
 }
