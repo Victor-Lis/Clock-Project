@@ -2,7 +2,8 @@ const ponteiro = document.querySelector("#ponteiro")
 
 function getHours(){
     let hours = new Date().getHours()   
-    ponteiro.style.transform = `rotate(${Math.abs(parseInt(hours))*30}deg)`
+    let min = new Date().getMinutes()
+    ponteiro.style.transform = `rotate(${(hours+(min/60))*30}deg)`
 }
 
 setInterval(() => {
