@@ -23,7 +23,7 @@ body {
   height: 150px;
   border-radius: 100%;
   background-color: #fff;
-  position: relative;
+  position: absolute;
 }
 
 .ponteiro-body {
@@ -155,4 +155,14 @@ body {
     z-index: 1;
     transform: rotate(330deg);
   }
+}
+
+.tempo-digital{
+    position: absolute;
+    top: -25vh;
+    font-size: 2rem;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    text-align: center;
 }
