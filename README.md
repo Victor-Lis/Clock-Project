@@ -136,6 +136,7 @@ setInterval(() => {
 ```
 
 ## Screenshots
+![](https://github.com/Victor-Lis/Clock-Project/blob/master/project-images/image.png)
 
 ## Autores
 
